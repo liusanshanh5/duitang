@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>dt</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/iconfont.css">
+	<link rel="stylesheet" href="css/dt.css">
+
+</head>
+<body >
+
+<!-- head -->
+	<div class="head clearfix">
+		<div class="nav">
+			<!--  -->
+			<div class="nav-left fl">
+				<div class="head-left clearfix"  >
+					<!-- logo -->
+					<div class="head-logo fl">
+						<a href=""><img src="img/20131224171644_TXGCC.png" alt="">
+						</a>
+					</div>
+					<!-- 分类divide -->
+					<div class="dt-header fl ">
+						<div class="divide ">
+							<span>分类</span>
+							<i class="iconfont icon-xiasanjiao"></i>
+						
+							<!-- 分类的下拉列表 -->
+							<div class="white-block"></div>
+							<div class="pull-down-list clearfix">
+								<div class="left-list fl">
+									<ul>
+										<li>首页</li>
+										<li>热门</li>
+										<li>良品购</li>
+									</ul>
+								</div>
+								<span></span>
+								<div class="right-list fl">
+									<ul>
+											<li>
+												<a href="#">家居生活</a>
+												<span></span>
+												<a href="#">美食菜谱</a>
+												<span></span>
+												<a href="#">手工DIY</a>
+												
+											</li>
+											<li>
+												<a href="#">时尚搭配</a>
+												<span></span>
+												<a href="#">美妆造型</a>
+												<span></span>
+												<a href="#">婚纱婚礼</a>
+												
+											</li>
+											<li>
+												<a href="#">设计</a>
+												<span></span>
+												<a href="#">古风</a>
+												<span></span>
+												<a href="#">插画绘画</a>
+												
+											</li>
+											<li>
+												<a href="#">壁纸</a>
+												<span></span>
+												<a href="#">头像</a>
+												<span></span>
+												<a href="#">文字句子</a>
+												
+											</li>
+											<li>
+												<a href="#">旅行</a>
+												<span></span>
+												<a href="#">摄影</a>
+												<span></span>
+												<a href="#">人文艺术</a>
+												
+											</li>
+											<li>
+												<a href="#">影音书</a>
+												<span></span>
+												<a href="#">人物明星</a>
+												<span></span>
+												<a href="#">动画漫画</a>
+												
+											</li>
+											<li>
+												<a href="#">植物多肉</a>
+												<span></span>
+												<a href="#">生活百科</a>
+												<span></span>
+												<a href="#">搞笑萌宠</a>
+						
+											</li>
+										</ul>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- 搜索框 search box-->
+					<div class="search-box fl">
+						<input type="text" placeholder="搜索感兴趣的内容" maxlength="16" >
+					</div>
+					<button>搜索</button>
+				</div>
+			</div>
+
+			<!--  -->
+			<div class="nav-right fl">
+				<div class="head-right">
+					<ul>
+						
+						<li class="phone-img">
+							<span></span>
+							<a href="#"><img src="img/20160523121159_Er5vL.png" alt=""></a>
+							<a href="#">手机版</a></li>
+						
+						<li class="button-login">
+							<span></span>
+							<a href="#" onclick="login">登录</a>
+							<!-- login -->
+							<div class="login clearfix" id="login">
+								<div class="login-header"><h2>登录</h2></div>
+								<hr>
+								<div class="login-content clearfix">
+									<div class="login-left">
+										<form action="" class="clearfix">
+											<div>
+												<input type="text" placeholder="用户名/邮箱">
+											</div>
+											<div>
+												<input type="text" placeholder="密码">
+											</div>
+											<div>
+												<input type="checkbox" class="checkbox">
+												<label for="">记住我</label>
+												<a href="#">忘记密码？</a>
+											</div>
+											<div class="submit ">
+												<a href=""><button>登录</button>
+												</a>
+											</div>
+											
+										</form>
+										<div class="login-ways">
+											<a href="#"><i class="QQ"></i></a>
+											<a href="#"><i class="swb"></i></a>
+											<a href="#"><i class="db"></i></a>
+											<a href="#"><i class="tb"></i></a>
+											<a href="#"><i class="qqwb"></i></a>
+										</div>
+
+									</div>
+									<div class="login-right">
+										<div class="login-right code"></div>
+										<p>扫一扫下载手机客户端
+						浏览体验更佳</p>
+									</div>	
+								</div>
+								<div class="login-footer">
+									<p><a href="#">还没有账号?立即注册</a></p>
+								</div>
+							</div>
+												</li>
+												
+												<li>
+													<a href="register.html" >注册</a>
+												</li>
+												<p></p>	
+												<li>
+													<span></span>
+													<a href="#">堆糖生活</a>
+													<p>new</p>
+												</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- 大图滚动部分 -->
+	<div class="box-scroll">
+		<div class="scroll clearfix">
+			<!--滚动图片-->
+			<div class="img-scroll fl clearfix">
+				
+			</div>
+			<!-- 滚动图片右边 -->
+			<div class="img-right fl clearfix">
+				<div class="hot ">
+					<h3>社区热点</h3>
+					<hr>
+					<div class="hot-sec01 clearfix" >
+						<ul class="hot-sec01-list">
+							<li><a href="#">冬天</a></li>
+							<li><a href="#">把生活过成一首诗</a></li>
+							<li><a href="#">早餐</a></li>
+							<li><a href="#">记下时间走过的路</a></li>
+							<li><a href="#">穿搭</a></li>
+							<li><a href="#">家居</a></li>
+							<li><a href="#">原创</a></li>
+						</ul>
+					</div>
+					<div class="hot-sec02 fl" >
+						<a href="#">
+							<span>『人气连衣裙精选』</span>
+							<span>大合集</span>
+						</a>
+						<a href="#">精选</a>
+					</div>
+					<div class="hot-sec03">收图小助手:<a href="#">堆糖收集工具</a>
+					</div>
+				</div>
+				<div class="app">	
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!-- 单品推荐 -->
+	<div class="content01">
+		<hr>
+		<div class="content01-nav clearfix">
+			<h2 class="fl">单品推荐 </h2>
+			<p><a href="3">往期回顾&nbsp;&nbsp;&gt;</a></p>
+		</div>
+		<div class="content01-sect clearfix">
+			<ul class="content01-sect-list clearfix">
+				<li><a href="#">
+						<img src="img/20170327184119_Gxryf.thumb.224_224_c.jpeg" alt="">
+					</a>
+					<p class="p1">
+						<a href="#">买卫衣才是正经事</a>
+					</p>
+					<p class="p2">
+						63张图片
+						<b>·</b>
+						926人收藏</p>
+					<p class="p3">
+						<span>by</span> &nbsp;<a href="#">遛弯</a></p>
+				</li>
+				<li><a href="#">
+						<img src="img/20170327121404_BrAEy.thumb.224_224_c.jpeg" alt="">
+					</a>
+					<p class="p1">
+						<a href="#">春夏满分造型必备墨镜！</a>
+					</p>
+					<p class="p2">
+						71张图片
+						<b>·</b>
+						1045人收藏</p>
+					<p class="p3">
+						<span>by</span> &nbsp;<a href="#">Miss天然卷</a></p>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/20170323142738_yMdNF.thumb.224_224_c.jpeg" alt="">
+					</a>
+					<p class="p1">
+						<a href="#">好看的穿搭驱走雨天坏心情</a>
+					</p>
+					<p class="p2">
+						90张图片
+						<b>·</b>
+						1123人收藏</p>
+					<p class="p3">
+						<span>by</span> &nbsp;<a href="#">占秋</a></p>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/20170322115316_JPChf.thumb.224_224_c.jpeg" alt="">
+					</a>
+					<p class="p1">
+						<a href="#">昼夜温差，针织温暖</a>
+					</p>
+					<p class="p2">
+						75张图片
+						<b>·</b>
+						1075人收藏</p>
+					<p class="p3">
+						<span>by</span> &nbsp;<a href="#">遛弯</a></p>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/20170321154325_h4QkU.thumb.224_224_c.jpeg" alt="">
+					</a>
+					<p class="p1">
+						<a href="#">长腿小秘诀，花式露脚背</a>
+					</p>
+					<p class="p2">
+						72张图片
+						<b>·</b>
+						1403人收藏</p>
+					<p class="p3">
+						<span>by</span> &nbsp;<a href="#">夏茵</a></p>
+				</li>
+			</ul>
+		</div>
+	</div>	
+
+
+<!--专辑精选  -->
+	<div class="content02">
+		<hr>
+		<div class="content02-nav clearfix">
+			<h2 class="fl">专辑精选</h2>
+			<div class="content02-nav-right-list fr">
+				<span style="color: #666">良品购:</span>
+				<ul>
+					<li><a href="#">日杂</a></li>
+					<li><a href="#">包袋</a></li>
+					<li><a href="#">鞋子</a></li>
+					<li><a href="#">配饰</a></li>
+					<li><a href="#">裙裤</a></li>
+					<li><a href="#">上衣</a></li>
+					<li><a href="#">全部</a></li>
+				</ul>				
+			</div>	
+		</div>
+		<div class="content02-sect clearfix">
+			<ul class="content02-sect-list clearfix">
+				<li><a href="#">
+						<img src="img/20170327030057_LVNCM.thumb.224_224_c.jpeg" alt="">
+					</a>
+					<p class="p1">
+						<a href="#">针织</a>
+					</p>
+					<p class="p2">
+						18564在逛</p>
+					<p class="p3">
+						<a href="#">良品购</a></p>
+				</li>
+				<li><a href="#">
+						<img src="img/20170327062200_WQAF8.thumb.224_224_c.jpeg" alt="">
+					</a>
+					<p class="p1">
+						<a href="#">春夏满分造型必备墨镜！</a>
+					</p>
+					<p class="p2">
+						18579在逛</p>
+					<p class="p3">
+						<a href="#">良品购</a></p>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/20170326160206_U4zec.thumb.224_224_c.jpeg" alt="">
+					</a>
+					<p class="p1">
+						<a href="#">好看的穿搭驱走雨天坏心情</a>
+					</p>
+					<p class="p2">
+						18329在逛</p>
+					<p class="p3">
+						<a href="#">良品购</a></p>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/20170328090121_jBseJ.thumb.224_224_c.jpeg" alt="">
+					</a>
+					<p class="p1">
+						<a href="#">昼夜温差，针织温暖</a>
+					</p>
+					<p class="p2">
+						18114在逛</p>
+					<p class="p3">
+						<a href="#">良品购</a></p>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/20170328130133_dLTxe.thumb.224_224_c.jpeg" alt="">
+					</a>
+					<p class="p1">
+						<a href="#">长腿小秘诀，花式露脚背</a>
+					</p>
+					<p class="p2">
+						18984在逛</p>
+					<p class="p3">
+						<a href="#">良品购</a></p>
+				</li>
+			</ul>
+			
+		</div>
+	</div>	
+
+<!-- 达人推荐 -->
+	<div class="content03">
+		<hr>
+		<div class="content03-nav clearfix">
+			<h2 class="fl">达人推荐 </h2>
+			<p><a href="3">更多达人&nbsp;&nbsp;&gt;</a></p>
+		</div>
+		<div class="content03-sect clearfix">
+			<ul class="content03-sect-list clearfix">
+				<li><a href="#">
+						<img src="img/20141030142646_Yntd3.thumb.712_356.jpeg" alt="">
+					</a>
+					<a href="#" class="list-small-img"><img src="img/20160628153134_HSZfj.thumb.80_80_c.jpeg" alt=""></a>
+					<div class="list-bottom-word">
+						<p class="p1">-小琢-</p>
+						<p class="p2">
+							<span class="star"></span>
+							<span>47196</span></p>
+						<p class="p3">擅长领域: <b>Q版</b></p>
+					</div>
+				</li>
+
+				<li><a href="#">
+						<img src="img/20141030142646_Yntd3.thumb.712_356.jpeg" alt="">
+					</a>
+					<a href="#" class="list-small-img"><img src="img/20120803233036_iuRj3.thumb.80_80_c.jpeg" alt=""></a>
+					<div class="list-bottom-word">
+						<p class="p1">-小琢-</p>
+						<p class="p2">
+							<span class="star"></span>
+							<span>47196</span></p>
+						<p class="p3">擅长领域: <b>Q版</b></p>
+					</div>
+				</li>
+				<li><a href="#">
+						<img src="img/20141030142646_Yntd3.thumb.712_356.jpeg" alt="">
+					</a>
+					<a href="#" class="list-small-img"><img src="img/20150306194949_fWjrn.thumb.80_80_c.jpeg" alt=""></a>
+					<div class="list-bottom-word">
+						<p class="p1">-小琢-</p>
+						<p class="p2">
+							<span class="star"></span>
+							<span>47196</span></p>
+						<p class="p3">擅长领域: <b>Q版</b></p>
+					</div>
+				</li>
+				<li><a href="#">
+						<img src="img/20141030142646_Yntd3.thumb.712_356.jpeg" alt="">
+					</a>
+					<a href="#" class="list-small-img"><img src="img/20151013222019_fdta5.thumb.80_80_c.jpeg" alt=""></a>
+					<div class="list-bottom-word">
+						<p class="p1">-小琢-</p>
+						<p class="p2">
+							<span class="star"></span>
+							<span>47196</span></p>
+						<p class="p3">擅长领域: <b>Q版</b></p>
+					</div>
+				</li>
+				<li><a href="#">
+						<img src="img/20141030142646_Yntd3.thumb.712_356.jpeg" alt="">
+					</a>
+					<a href="#" class="list-small-img"><img src="img/20170330185547_xdhBn.thumb.80_80_c.jpeg" alt=""></a>
+					<div class="list-bottom-word">
+						<p class="p1">-小琢-</p>
+						<p class="p2">
+							<span class="star"></span>
+							<span>47196</span></p>
+						<p class="p3">擅长领域: <b>Q版</b></p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>	
+
+<!-- 大家正在逛 -->
+	<div class="content04">
+		<hr>
+		<div class="content04-nav clearfix">
+			<h2 class="fl">大家正在逛 </h2>
+		</div>
+		<!-- 第一竖列表 -->
+		<ul class="first-list fl">
+			<li>
+				<a href="#"><img src="img/20170331171154_NHyJr.thumb.224_0.jpeg" alt=""></a>
+				<div class="img-bottom">
+					<p class="p-word01">#爱漫画# 第11期封面 ​​​​</p>
+					<p>
+						<span class="samll-img01">6</span>
+						<span class="samll-img02">7</span>
+					</p>
+					<hr>
+					<p>
+						<a href="#" class="p-img"><img src="img/20170328183618_GfcAr.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02">蓝调衣</a>
+						<span class="img-bottom-word03">收集到&nbsp;<a href="#">飒漫画</a></span>
+					</p>
+				</div>
+				
+			</li>
+			<li id="list-li02">
+				<a href="#"><img src="img/20170402115121_xzdXr.thumb.224_0.jpeg" alt=""></a>
+				<div class="img-bottom">
+					<p class="p-word01">这下是真福利哈，单行本17-18官网还没发广告，但已经有读者买到了，应该这几天就陆续上市了，我就提前先放插图了～～还请多多支持呦！[爱你][爱你][爱你] ​​​​【飒漫画】 ​​​​</p>
+					<p>
+						<span class="samll-img01">6</span>
+						<span class="samll-img02">11</span>
+					</p>
+					<hr>
+					<p>
+						<a href="#" class="p-img"><img src="img/20170328183618_GfcAr.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02">蓝调衣</a>
+						<span class="img-bottom-word03">收集到&nbsp;<a href="#">飒漫画</a></span>
+					</p>
+				</div>
+				
+			</li>
+			<li>
+				<a href="#"><img src="img/20170403212840_uzLir.jpg" alt=""></a>
+				<div class="img-bottom">
+					<p class="p-word01">#爱漫画# 第11期封面 ​​​​</p>
+					<p>
+						<span class="samll-img01">6</span>
+						<span class="samll-img02">9</span>
+					</p>
+					<hr>
+					<p>
+						<a href="#" class="p-img"><img src="img/20170328183618_GfcAr.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02">西尔奈</a>
+						<span class="img-bottom-word03">收集到&nbsp;<a href="#">阴阳师</a></span>
+					</p>
+				</div>
+				
+			</li>
+			<li>
+				<a href="#"><img src="img/20170401175253_PE4sr.thumb.224_0.jpeg" alt=""></a>
+				<div class="img-bottom">
+					<p class="p-word01">初音未来 雪未来2017  绘师：_FEI 本作品pixiv id=60032026 ​​​​</p>
+					<p>
+						<span class="samll-img01">6</span>
+						<span class="samll-img02">9</span>
+					</p>
+					<hr>
+					<p>
+						<a href="#" class="p-img"><img src="img/20170328183618_GfcAr.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02">绿萼落得几瓣秋</a>
+						<span class="img-bottom-word03">收集到&nbsp;<a href="#">虚拟歌者与曲绘</a></span>
+					</p>
+				</div>
+				
+			</li>
+		</ul>
+		<!-- 第二竖列表 -->
+		<ul class="second-list fl">
+			<li>
+				<a href="#"><img src="img/20170407194300_4YuzS.thumb.224_0.jpeg" alt=""></a>
+				<div class="img-bottom">
+					<p class="p-word01">“你打架，你打吧，你家底有多厚啊”[ 漫头 ]-图源各个网站 禁二传 by 白无昕 ​​​​</p>
+					<p>
+						<span class="samll-img01">6</span>
+						<span class="samll-img02">7</span>
+					</p>
+					<hr>
+					<p>
+						<a href="#" class="p-img"><img src="img/20170328183618_GfcAr.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02">白无昕</a>
+						<span class="img-bottom-word03">收集到&nbsp;<a href="#">为你弃江山</a></span>
+					</p>
+				</div>
+				
+			</li>
+			<li>
+				<a href="#"><img src="img/20170407130745_iWByS.thumb.224_0.jpeg" alt=""></a>
+				<div class="img-bottom">
+					<p class="p-word01">“Huishan Zhang张卉山 2017春夏伦敦时装周 ​​​​</p>
+					<p>
+						<span class="samll-img01">6</span>
+						<span class="samll-img02">7</span>
+					</p>
+					<hr>
+					<p>
+						<a href="#" class="p-img"><img src="img/20170328183618_GfcAr.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02">大祁Y</a>
+						<span class="img-bottom-word03">收集到&nbsp;<a href="#">时尚的宠儿</a></span>
+					</p>
+				</div>
+				
+			</li>
+			<li>
+				<a href="#"><img src="img/20170407131043_5EFXd.thumb.224_0.jpeg" alt=""></a>
+				<div class="img-bottom">
+					<p class="p-word01">“Huishan Zhang张卉山 2017春夏伦敦时装周 ​​​​</p>
+					<p>
+						<span class="samll-img01">6</span>
+						<span class="samll-img02">7</span>
+					</p>
+					<hr>
+					<p>
+						<a href="#" class="p-img"><img src="img/20170328183618_GfcAr.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02">大祁Y</a>
+						<span class="img-bottom-word03">收集到&nbsp;<a href="#">时尚的宠儿</a></span>
+					</p>
+				</div>
+				
+			</li>
+			<li>
+				<a href="#"><img src="img/20170328160008_mFPvJ.thumb.224_0.jpeg" alt=""></a>
+				<div class="img-bottom">
+					<p class="p-word01">金大班130回音2017春装韩版H型毛边高腰牛仔半身裙子女中长 ​​​​</p>
+					<p>
+						<span class="samll-img01">6</span>
+						<span class="samll-img02">7</span>
+					</p>
+					<hr>
+					<p>
+						<a href="#" class="p-img"><img src="img/20170328183618_GfcAr.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02">悠悠云晨曦骄阳</a>
+						<span class="img-bottom-word03">收集到&nbsp;<a href="#">默认专辑</a></span>
+					</p>
+				</div>
+				
+			</li>
+		</ul>
+		<!-- 第三竖列表 -->
+		<ul class="third-list fl">
+			<li>
+				<a href="#"><img src="img/20170407100339_vWSeu.thumb.224_0.jpeg" alt=""></a>
+				<div class="img-bottom">
+					<p class="p-word01">Badgley Mischka 2014 春夏高级成衣 Mark Badgley和James Mischka本次春夏季的灵感源于上世纪20年代Jacques Henri Lartigue 的一幅照片，照片的主角是沿着蔚蓝海岸悠闲漫步的女子。本次走秀讲述了一个简明扼要的故事，Badgley Mischka女郎身着上世纪二三十年代风情的服饰，引得众人浮想联翩，好似眼前的场景一直在变幻，从海滩、快艇、直到深蓝静谧的海底～</p>
+					<p>
+						<span class="samll-img01">6</span>
+						<span class="samll-img02">7</span>
+					</p>
+					<hr>
+					<p>
+						<a href="#" class="p-img"><img src="img/20170328183618_GfcAr.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02"> Nyx-Ghost</a>
+						<span class="img-bottom-word03">收集到&nbsp;<a href="#">Fashion Design★♢♣●□■</a></span>
+					</p>
+				</div>
+				
+			</li>
+			<li>
+				<a href="#"><img src="img/20170407100335_kYvEf.thumb.224_0.jpeg" alt=""></a>
+				<div class="img-bottom">
+					<p class="p-word01">Badgley Mischka 2014 春夏高级成衣 Mark Badgley和James Mischka本次春夏季的灵感源于上世纪20年代Jacques Henri Lartigue 的一幅照片，照片的主角是沿着蔚蓝海岸悠闲漫步的女子。本次走秀讲述了一个简明扼要的故事，Badgley Mischka女郎身着上世纪二三十年代风情的服饰，引得众人浮想联翩，好似眼前的场景一直在变幻，从海滩、快艇、直到深蓝静谧的海底～ ​​​​</p>
+					<p>
+						<span class="samll-img01">6</span>
+						<span class="samll-img02">7</span>
+					</p>
+					<hr>
+					<p>
+						<a href="#" class="p-img"><img src="img/20170328183618_GfcAr.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02"> Nyx-Ghost</a>
+						<span class="img-bottom-word03">收集到&nbsp;<a href="#">Fashion Design★♢♣●□■</a></span>
+					</p>
+				</div>
+				
+			</li>
+			<li>
+				<a href="#"><img src="img/20170403135755_4sQPJ.thumb.224_0.jpeg" alt=""></a>
+				<div class="img-bottom">
+					<p class="p-word01">王者荣耀  周瑜 小乔 ​​​​</p>
+					<p>
+						<span class="samll-img01">6</span>
+						<span class="samll-img02">7</span>
+					</p>
+					<hr>
+					<p>
+						<a href="#" class="p-img"><img src="img/20170328183618_GfcAr.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02">梦随缘散</a>
+						<span class="img-bottom-word03">收集到&nbsp;<a href="#">王者荣耀ʕ •ᴥ•ʔ</a></span>
+					</p>
+					<p>
+						<a href="#" class="p-img"><img src="img/20170328183618_GfcAr.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02">梦随缘散</a>
+						<span class="img-bottom-word03"><a href="#">可惜，我喜欢的是孔明……呢</a></span>
+					</p>
+					<p>
+						<a href="#" class="p-img"><img src="img/20170407214047_i8cEA.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02">VC&凤求凰</a>
+						<span class="img-bottom-word03"><a href="#">韩信出来</a></span>
+					</p>
+					<p>
+						<a href="#" class="p-img"><img src="img/20170407214047_i8cEA.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02">VC&凤求凰</a>
+						<span class="img-bottom-word03"><a href="#">难道是韩信？</a></span>
+					</p>
+
+				</div>
+				
+			</li>
+			
+		</ul>
+		<!-- 第四竖列表 -->
+		<ul class="forth-list fl">
+			<li>
+				<a href="#"><img src="img/20170324181726_a4AGJ.thumb.224_0.jpeg" alt=""></a>
+				<div class="img-bottom">
+					<p class="p-word01">金大班116雾霭2017春装韩版工装纽扣夹克短款风衣外套女 ​​​​</p>
+					<p>
+						<span class="samll-img01">6</span>
+						<span class="samll-img02">7</span>
+					</p>
+					<hr>
+					<p>
+						<a href="#" class="p-img"><img src="img/20120115155130_iBAav.thumb.24_24_c.jpg" alt=""></a>
+						<a href="#" class="p-word02">悠悠云晨曦骄阳</a>
+						<span class="img-bottom-word03">收集到&nbsp;<a href="#">默认专辑</a></span>
+					</p>
+				</div>
+				
+			</li>
+			<li>
+				<a href="#"><img src="img/20170407131113_JaSRL.thumb.224_0.jpeg" alt=""></a>
+				<div class="img-bottom">
+					<p class="p-word01">“Huishan Zhang张卉山 2017春夏伦敦时装周 ​​​​</p>
+					<p>
+						<span class="samll-img01">6</span>
+						<span class="samll-img02">7</span>
+					</p>
+					<hr>
+					<p>
+						<a href="#" class="p-img"><img src="img/20170408001613_zQreG.thumb.24_24_c.png" alt=""></a>
+						<a href="#" class="p-word02">大祁Y</a>
+						<span class="img-bottom-word03">收集到&nbsp;<a href="#">时尚的宠儿</a></span>
+					</p>
+				</div>
+				
+			</li>
+			<li>
+				<a href="#"><img src="img/20170407131043_5EFXd.thumb.224_0.jpeg" alt=""></a>
+				<div class="img-bottom">
+					<p class="p-word01">“Huishan Zhang张卉山 2017春夏伦敦时装周 ​​​​</p>
+					<p>
+						<span class="samll-img01">6</span>
+						<span class="samll-img02">7</span>
+					</p>
+					<hr>
+					<p>
+						<a href="#" class="p-img"><img src="img/20170328183618_GfcAr.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02">大祁Y</a>
+						<span class="img-bottom-word03">收集到&nbsp;<a href="#">时尚的宠儿</a></span>
+					</p>
+				</div>
+				
+			</li>
+			<li>
+				<a href="#"><img src="img/20170408130556_wmLK4.thumb.224_0.jpeg" alt=""></a>
+				<div class="img-bottom">
+					<p class="p-word01">Lela Rose 2016 秋冬高级成衣</p>
+					<p>
+						<span class="samll-img01">6</span>
+						<span class="samll-img02">7</span>
+					</p>
+					<hr>
+					<p>
+						<a href="#" class="p-img"><img src="img/20160613221449_EvPrQ.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02">Nyx-Ghost</a>
+						<span class="img-bottom-word03">收集到&nbsp;<a href="#">Fashion Design★♢♣●□■</a></span>
+					</p>
+				</div>
+				
+			</li>
+		</ul>
+		<!-- 第五竖列表 -->
+		<ul class="fifth-list fl">
+			<li>
+				<a href="#"><img src="img/20170402160225_GQH3f.thumb.224_0.jpeg" alt=""></a>
+				<div class="img-bottom">
+					<p class="p-word01">摄影、后期：肉肉ROEM</p>
+					<p>
+						<span class="samll-img01">6</span>
+						<span class="samll-img02">7</span>
+					</p>
+					<hr>
+					<p>
+						<a href="#" class="p-img"><img src="img/20161111113356_Yve3V.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02">肉肉ROEM</a>
+						<span class="img-bottom-word03">收集到&nbsp;<a href="#">肉肉ROEM的摄影作品集</a></span>
+					</p>
+				</div>
+				
+			</li>
+			<li>
+				<a href="#"><img src="img/20170404170121_f5chs.thumb.224_0.jpeg" alt=""></a>
+				<div class="img-bottom">
+					<p class="p-word01">花鸟风月 ​​​​</p>
+					<p>
+						<span class="samll-img01">6</span>
+						<span class="samll-img02">7</span>
+					</p>
+					<hr>
+					<p>
+						<a href="#" class="p-img"><img src="img/20160804164526_shYGK.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02">Connie.Q</a>
+						<span class="img-bottom-word03">收集到&nbsp;<a href="#">有美一人 清扬婉兮</a></span>
+					</p>
+				</div>
+				
+			</li>
+			<li>
+				<a href="#"><img src="img/20170404104010_W82tG.thumb.224_0.jpeg" alt=""></a>
+				<div class="img-bottom">
+					<p class="p-word01">鱼 - vere_涂鸦王国插画 ​​​​</p>
+					<p>
+						<span class="samll-img01">6</span>
+						<span class="samll-img02">7</span>
+					</p>
+					<hr>
+					<p>
+						<a href="#" class="p-img"><img src="img/20150518123528_KQUWT.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02">菲一般猫</a>
+						<span class="img-bottom-word03">收集到&nbsp;<a href="#">蓝✿梦</a></span>
+					</p>
+				</div>
+				
+			</li>
+			<li>
+				<a href="#"><img src="img/20170404170051_3cvdU.thumb.224_0.jpeg" alt=""></a>
+				<div class="img-bottom">
+					<p class="p-word01">花鸟风月</p>
+					<p>
+						<span class="samll-img01">6</span>
+						<span class="samll-img02">7</span>
+					</p>
+					<hr>
+					<p>
+						<a href="#" class="p-img"><img src="img/20160804164526_shYGK.thumb.24_24_c.jpeg" alt=""></a>
+						<a href="#" class="p-word02">Connie.Q</a>
+						<span class="img-bottom-word03">收集到&nbsp;<a href="#">有美一人 清扬婉兮</a></span>
+					</p>
+				</div>
+				
+			</li>
+		</ul>
+		<div class="scan-more"><div class="scan-more-box">浏览更多&gt;</div></div>
+	</div>
+
+<!-- footer -->
+	<div class="footer">
+		<div class="first-later">
+			<div class="second-later-top clearfix">
+				<div class="first-line-word fl">
+					<h4>关于我们</h4>
+					<ul class="footer-first-ul fl">
+						<li><a href="#">关于我们 </a></li>
+						<li><a href="#">加入我们</a></li>
+						<li><a href="#">联系我们</a></li>
+						<li><a href="#">商务合作</a></li>
+					</ul>
+					<ul class="footer-first-ul fl">
+						<li><a href="#">帮助中心</a></li>
+						<li><a href="#">堆糖收集工具</a></li>
+						<li><a href="#">标签集</a></li>
+						<li><a href="#">免责声明</a></li>
+					</ul>
+				</div>
+
+				<div class="second-line-word fl clearfix">
+					<h4>手机应用</h4>
+					<ul class="footer-first-ul fl">
+						<li><a href="#">堆糖客户端</a></li>
+						<li><a href="#">堆糖良品购</a></li>
+					</ul>
+					<ul class="footer-first-ul fl">
+						<li><a href="#">爱疯了壁纸</a></li>
+					</ul>
+  				</div>
+				<div class="third-line-word fl">
+					<div class="code">
+						<p class="code-p1"><!-- <img src="img/20160506140111_ycQzR.png" alt=""> --></p>
+						<p>扫描二维码</p>
+						<p>载堆糖手机客户端下</p>
+					</div>
+
+				</div>
+				
+				<div class="first-line-word fr clearfix">
+					<h4>友情链接</h4>
+					<ul class="footer-first-ul fl">
+						<li><a href="#">爱物网 </a></li>
+						<li><a href="#"> 肉丁网</a></li>
+						<li><a href="#">美食美酒网 </a></li>
+						<li><a href="#">传导体招聘</a></li>
+					</ul>
+					<ul class="footer-first-ul fl">
+						<li><a href="#">东方女性网</a></li>
+						<li><a href="#">LADYMAX时尚</a></li>
+						<li><a href="#">携程攻略 </a></li>
+						<li><a href="#">更多..</a></li>
+					</ul>
+				</div>
+
+				<div class="forth-line-word fr clearfix">
+					<h4>关注我们</h4>
+					<ul class="footer-first-ul fl">
+						<li><a href="#">新浪微博</a></li>
+					</ul>
+					<ul class="footer-first-ul fl">
+						<li><a href="#">微信</a></li>
+					</ul>
+  				</div>
+			</div>
+			<div class="second-later-bottom">
+				<div class="copyright clearfix">
+					<p class="copyright-word fl">©2017 duitang.com 版权所有。沪ICP备10038086号-3</p>
+					<a href="#" class="copy-img01"></a>
+					<a href="#" class="copy-img02"></a>
+					<a href="#" class="copy-img03"><img src="img/20161222154249_ufmCk.jpeg" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
